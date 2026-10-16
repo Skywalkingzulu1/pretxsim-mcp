@@ -1,0 +1,9 @@
+[package]
+name = "pretxsim_mcp"
+version = "0.1.0"
+edition = "2021"
+description = "PreTxSim adapter for Amazon Developer Hackathon - Alexa+ MCP server / Agent Skill"
+repository = "https://github.com/Skywalkingzulu1/pretxsim_mcp"
+
+[dependencies]
+serde_json = "1.0"
