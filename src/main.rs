@@ -179,7 +179,10 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     > = rmcp::transport::streamable_http_server::tower::StreamableHttpService::new(
         || Ok(PreTxSimFirewall),
         Default::default(),
-        rmcp::transport::streamable_http_server::StreamableHttpServerConfig::default(),
+        rmcp::transport::streamable_http_server::StreamableHttpServerConfig {
+            stateful_mode: false,
+            sse_keep_alive: None,
+        },
     );
 
     let app = axum::Router::new()
