@@ -1,1 +1,6 @@
 target/
+
+# Demo build intermediates
+demo_raw.avi
+pretxsim_demo_final_compressed.mp4
+pretxsim_demo_final_with_audio.mp4
