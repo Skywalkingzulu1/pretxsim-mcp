@@ -197,15 +197,12 @@ Logging is written to **stderr only** so stdout stays clean for JSON-RPC framing
 
 ---
 
-## Demo assets
+## Demo
 
 | File | Purpose |
 |---|---|
-| `pretxsim_demo_final.mp4` | Final submission video (2m 47s, with audio) |
-| `architecture.jpg` | Architecture slide used as the video intro |
-| `screen-capture (1)_2.mp4` | Raw terminal screen capture |
-| `build_demo.py` | Splices slide + capture into the final video |
-| `record_demo.py` | Local screen recorder (mss + OpenCV) |
+| `pretxsim_demo_final.mp4` | Submission video (2m 47s, with audio) |
+| `architecture.jpg` | Architecture slide shown in the video intro |
 
 ---
 
